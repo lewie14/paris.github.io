@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
 
-You can use the [editor on GitHub](https://github.com/lewie14/paris.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  <head>
+    <meta charset="utf-8">
+    <title>My Travel Blog</title>
+  </head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <body>
+    <h1>My Travels</h1>
+    <h2>Paris</h2>
+    <h3>September 2016</h3>
+    <nav>
+      <ul>
+        <li><a href ="#highlghts">Highlights</a></li>
+        <li><a href ="#story">Full Story</a></li>
+          <ol>
+            <li><a href ="#Day1">Day 1</a></li>
+            <li><a href ="#Day2">Day 2</a></li>
+            <li><a href ="#Day3">Day 3</a></li>
+          </ol>
+        <li><a href ="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-### Markdown
+    <div id = "highlights">
+      <h3>My Favourite Spots in Paris</h3>
+      <ul>
+        <li>The Eiffel Tower<?li>
+        <li>The Louvre</li>
+        <li>Jardin du Luxembourg</li>
+        <li>Palais Garnier</li>
+      </ul>
+      <p>Click <a href = "https://en.wikipedia.org/wiki/Paris" target ="_blank"> here</a> to learn more about Paris!</p>
+    <div id = "story">
+      <h2>A Weekend on the Seine</h2>
+        <p>I was lucky enough to spend three days visiting Paris this month! I went with a friend and we were able to see many things while we were there!</p>
+      <h4 id = "Day1">Day 1</h4>
+        <p>On our first day, we started by visiting <em>Montmartre</em> right away. Our second stop was the Eiffel Tower (check out that beautiful picture!) We ate dinner at a cute little bistro overlooking <em>la Seine</em>.</p>
+        <img src="images\freelance1-img_paris-eiffel.jpg"/>
+      <h4 id = "Day2">Day 2</h4>
+        <p>On our second day, we went shopping on <em>Avenue des Champs Elysees</em>. Every single person we saw was dressed in the height of fashion.<br><br>After we finished shopping, we visited some really beautiful places! We went to <em>Notre Dame</em>. We went on a macaron tour of Paris and ate all of the best macarons the city had to offer. After we finished shopping, we visited <em>le Louvre</em>.</p>
+        <img src="images\freelance1-img_paris-louvre.jpg"/>
+      <h4 id = "Day3">Day 3</h4>
+        <p>The picture below is of me visiting the <em>Arc de Triomphe</em>. It's huge! We also went to <em>le Musee D'Orsay</em>. Seeing the work of Renoir, Monet, and Van Gogh in person was completely breathtaking. I was surprised to see that the museum also had many sculptures including those by Auguste Rodin, Paul Gauguin, and Alfred Barye.</p>
+        <img src="images\freelance1-img_paris-arc.jpg"/>
+    <div id = "contact">
+      <h4>If you have any questions about my blog, here is my contact information:</h4>
+      <p><strong>email:</strong> contact@mytravels.com | <strong>phone:</strong> 917-555-1098 | <strong>address:</strong> 371 284th St, New York, NY, 10001</p>
+  </body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lewie14/paris.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
